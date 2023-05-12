@@ -1,6 +1,7 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother) 
 // плавный скролл, но не для тел.
-if(ScrollTrigger.isTouch !==1) {
+// if(ScrollTrigger.isTouch !==1) {
+// плавный скролл, но не для тел.
 
     ScrollSmoother.create({
         wrapper: '.wrapper',
@@ -46,5 +47,5 @@ if(ScrollTrigger.isTouch !==1) {
             }
         })
     })
-}
+// } плавный скролл, но не для тел.
 
